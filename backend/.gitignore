@@ -1,0 +1,25 @@
+# Environment / secrets — keep API keys out of git
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model / HF caches
+.cache/
+.huggingface/
+
+# Temp audio downloads (Whisper fallback)
+/tmp_audio/
+*.m4a
+*.webm
+*.mp3
+
+# OS
+.DS_Store

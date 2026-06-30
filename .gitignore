@@ -1,0 +1,5 @@
+# Claude Code local-only tool config (not meant to be versioned)
+.claude/settings.local.json
+
+# OS
+.DS_Store

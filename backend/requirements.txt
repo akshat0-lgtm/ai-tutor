@@ -1,0 +1,22 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# LLM + Whisper (Groq)
+groq==0.13.1
+
+# Voice — Sarvam TTS/STT (conversation mode in Teach mode)
+httpx==0.28.1
+python-multipart==0.0.20
+
+# Transcript fetching
+youtube-transcript-api==1.2.4
+# yt-dlp ships near-monthly fixes to keep up with YouTube's anti-bot changes;
+# pin a floor, not an exact version, so installs always get current fixes.
+yt-dlp>=2026.6.9
+
+# Embeddings (local, free) + math
+sentence-transformers==3.3.1
+numpy==1.26.4
